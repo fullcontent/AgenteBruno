@@ -1,0 +1,29 @@
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor configurations
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs and temporary files
+*.log
+.gemini/
+*.tmp
+
+# Agent OS local artifacts
+.hermes/
+.env
+reports/*
+!reports/.gitkeep
+

@@ -1,0 +1,64 @@
+name: agente-bruno
+version: "1.0"
+description: Agent OS pessoal do Bruno — persona, contexto, skills e memória para uso com Hermes.
+owner: Bruno Carvalho
+
+root_files:
+  - path: AGENTS.md
+    purpose: contrato operacional / bootloader
+  - path: SOUL.md
+    purpose: identidade, tom, princípios de raciocínio
+  - path: USER.md
+    purpose: perfil do usuário
+  - path: GOALS.md
+    purpose: objetivos de curto/médio/longo prazo
+  - path: MAPA.md
+    purpose: mapa de navegação do repositório
+  - path: MEMORY.md
+    purpose: memória longa curada
+  - path: TOOLS.md
+    purpose: ferramentas e permissões
+  - path: PROPAGATION.md
+    purpose: protocolo de escrita/persistência
+  - path: HERMES.md
+    purpose: instruções de sincronização e uso no Hermes
+
+skills:
+  categories:
+    - name: ideation
+      path: skills/ideation/
+      description: Esteira de validação de ideias e oportunidades de negócio (7 etapas sequenciais)
+      members:
+        - sintetizador-padroes
+        - arquiteto-problemas
+        - escultor-mvp
+        - arquiteto-minimalista
+        - estrategista-riscos
+        - analista-viabilidade
+        - auditor-equacao
+
+memory:
+  path: memory/
+  files:
+    - decisions.md
+    - ideas.md
+    - lessons.md
+    - tasks.md
+
+templates:
+  path: templates/
+  files:
+    - SKILL-TEMPLATE.md
+    - ROOT-FILES-CHECKLIST.md
+
+scripts:
+  path: scripts/
+  files:
+    - sync.sh
+    - validate-agent-os.py
+
+folders:
+  - docs/
+  - examples/
+  - reports/
+  - archive/
