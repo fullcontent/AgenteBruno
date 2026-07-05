@@ -24,6 +24,4 @@ Thumbs.db
 # Agent OS local artifacts
 .hermes/
 .env
-reports/*
-!reports/.gitkeep
 

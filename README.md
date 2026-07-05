@@ -1,55 +1,72 @@
-# AgenteBruno
+# BrunoOS
 
-Agent OS pessoal do Bruno, no formato esperado pelo framework [agent-os-hermes](https://github.com/okjpg/agent-os-hermes). Este repositório é a fonte de verdade que é sincronizada para `~/.hermes/` e lida pelo Hermes rodando via Docker na VPS.
+Agent OS pessoal do Bruno. Este repositório é a fonte de verdade que é sincronizada para `~/.hermes/` e lida pelo Hermes rodando via Docker na VPS.
 
 ## Estrutura
 
 ```
-AgenteBruno/
-├── AGENTS.md              # contrato operacional (bootloader)
-├── SOUL.md                # identidade do agente
-├── USER.md                # perfil do Bruno
-├── GOALS.md                # objetivos de curto/médio/longo prazo
-├── MAPA.md                # mapa de navegação
-├── MEMORY.md              # memória longa curada
-├── TOOLS.md                # ferramentas e permissões
-├── PROPAGATION.md          # protocolo de escrita
-├── HERMES.md                # instruções para o Hermes
-├── agent-os.yaml           # manifesto estruturado
+BrunoOS/
 ├── README.md
+├── USER.md              # perfil do Bruno
+├── GOALS.md              # objetivos de curto/médio/longo prazo
+├── DECISION_RULES.md      # critérios pra aceitar, priorizar ou recusar
+├── THINKING.md            # como o agente pensa
+├── WORKFLOW.md            # contrato operacional (bootloader)
+├── WRITING_STYLE.md       # tom e voz
+├── PROJECTS.md            # índice de projetos ativos
+├── NOW.md                 # o que está em foco agora
+├── IDEAS.md               # ideias discutidas e avaliadas, ainda sem projeto
+├── HERMES.md              # instruções de sincronização/uso no Hermes
 │
-├── skills/
-│   └── ideation/           # esteira de validação de ideias (7 skills sequenciais)
-│       ├── sintetizador-padroes/SKILL.md
-│       ├── arquiteto-problemas/SKILL.md
-│       ├── escultor-mvp/SKILL.md
-│       ├── arquiteto-minimalista/SKILL.md
-│       ├── estrategista-riscos/SKILL.md
-│       ├── analista-viabilidade/SKILL.md
-│       └── auditor-equacao/SKILL.md
+├── projects/
+│   ├── AventuFilm.md
+│   ├── Ambialles.md
+│   └── ...                # demais projetos, conforme forem enviados
 │
-├── memory/
-│   ├── decisions.md
-│   ├── ideas.md
-│   ├── lessons.md
-│   └── tasks.md
+├── knowledge/
+│   ├── business.md
+│   ├── ai.md
+│   ├── storytelling.md
+│   ├── audiovisual.md
+│   ├── climbing.md
+│   ├── tourism.md
+│   └── spirituality.md
 │
 ├── templates/
-│   ├── SKILL-TEMPLATE.md
-│   └── ROOT-FILES-CHECKLIST.md
+│   ├── PRD.md
+│   ├── Proposal.md
+│   ├── Meeting.md
+│   ├── Decision.md
+│   ├── Project.md
+│   └── Skill.md
 │
-├── scripts/
-│   ├── sync.sh
-│   └── validate-agent-os.py
+├── skills/
+│   └── ideation/           # esteira de validação de ideias (8 skills sequenciais)
+│       ├── ValidateNewIdea/    # orquestrador da esteira
+│       ├── OpportunityScanner/
+│       ├── PatternSynthesizer/
+│       ├── ProblemArchitect/
+│       ├── MVPSculptor/
+│       ├── MinimalArchitect/
+│       ├── RiskStrategist/
+│       ├── ViabilityAnalyst/
+│       └── EquationAuditor/
+│           (cada skill tem README.md + workflow.md)
 │
-├── docs/
-├── examples/
-├── reports/               # gerado, não versionado
-└── archive/
-    └── bruno-persona.md   # persona original, absorvida em SOUL.md
+├── logs/
+│   ├── decisions.md
+│   └── lessons.md
+│
+├── archive/
+│   ├── bruno-persona.md      # persona original, absorvida em THINKING.md/WRITING_STYLE.md
+│   └── legacy-projects.md    # projetos de antes desta reestruturação
+│
+└── scripts/
+    ├── sync.sh
+    └── validate-brunos.py
 ```
 
-Ver [MAPA.md](MAPA.md) para o que carregar em cada situação.
+Ver `WORKFLOW.md` para a ordem de leitura e o que carregar em cada situação.
 
 ## Sincronização
 
@@ -58,16 +75,16 @@ chmod +x scripts/sync.sh
 ./scripts/sync.sh
 ```
 
-Copia root files, `skills/` e `memory/` para `~/.hermes/`.
+Copia root files e as pastas `projects/`, `knowledge/`, `templates/`, `skills/`, `archive/`, `logs/` para `~/.hermes/`.
 
 ## Validação
 
 ```bash
-python3 scripts/validate-agent-os.py
+python3 scripts/validate-brunos.py
 ```
 
-Confirma que a estrutura de root files, skills, memory e templates está íntegra.
+Confirma que a estrutura de root files, projects, knowledge, templates, skills e logs está íntegra.
 
 ## Uso
 
-Este repositório não é lido diretamente — ele é sincronizado para `~/.hermes/`, de onde o Hermes carrega o contexto. Ver [HERMES.md](HERMES.md) para detalhes de instalação e sincronização na VPS.
+Este repositório não é lido diretamente — ele é sincronizado para `~/.hermes/`, de onde o Hermes carrega o contexto. Ver `HERMES.md` para detalhes de instalação e sincronização na VPS.
