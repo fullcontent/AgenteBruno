@@ -1,6 +1,6 @@
 # HERMES.md — instruções para o Hermes
 
-Este repositório é o BrunoOS — Agent OS pessoal do Bruno — sincronizado para `~/.hermes/` na VPS onde o Hermes roda via Docker.
+Este repositório é o BrunoOS — Agent OS pessoal do Bruno — mantido em `/opt/data/AgenteBruno` e sincronizado para `~/.hermes/` na VPS onde o Hermes roda.
 
 ## O que o Hermes deve fazer com este repositório
 
@@ -12,21 +12,20 @@ Este repositório é o BrunoOS — Agent OS pessoal do Bruno — sincronizado pa
 
 ## Sincronização
 
-Este repositório vive em `~/Desktop/AgenteBruno` (ou equivalente) e é sincronizado para `~/.hermes/` via `scripts/sync.sh`:
+A fonte oficial vive em `/opt/data/AgenteBruno` e é sincronizada diariamente para `~/.hermes/` via `scripts/update-and-sync.sh`:
 
 ```bash
-chmod +x scripts/sync.sh
-./scripts/sync.sh
+chmod +x scripts/update-and-sync.sh
+./scripts/update-and-sync.sh
 ```
 
-O script copia os root files e as pastas `projects/`, `knowledge/`, `templates/`, `skills/`, `archive/`, `logs/` para `~/.hermes/`, preservando a estrutura.
+O fluxo copia `SOUL.md` para `~/.hermes/SOUL.md`, `USER.md` para `~/.hermes/memories/USER.md` e as pastas `projects/`, `knowledge/`, `templates/`, `skills/`, `archive/`, `logs/` e `memories/` para `~/.hermes/`, preservando a estrutura.
 
 ## Instalação na VPS
 
-1. Clonar/atualizar este repositório na VPS onde o Hermes roda em Docker.
-2. Rodar `scripts/sync.sh` para popular `~/.hermes/`.
-3. Confirmar montagem do volume `~/.hermes/` no container do Hermes.
-4. Testar com um prompt simples: "Leia WORKFLOW.md e me diga quem você é."
+1. Clonar/atualizar este repositório em `/opt/data/AgenteBruno`.
+2. Rodar `scripts/update-and-sync.sh` para atualizar o repositório e popular `~/.hermes/`.
+3. Testar com um prompt simples: "Leia WORKFLOW.md e me diga quem você é."
 
 ## Validação
 

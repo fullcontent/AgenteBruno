@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Valida a estrutura do BrunoOS (root files, projects, knowledge, templates, skills)."""
+"""Valida a estrutura do BrunoOS (root files, projects, knowledge, templates, skills, memories)."""
 
 import sys
 from pathlib import Path
@@ -7,7 +7,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 REQUIRED_ROOT_FILES = [
-    "README.md", "USER.md", "GOALS.md", "DECISION_RULES.md", "THINKING.md",
+    "README.md", "SOUL.md", "USER.md", "GOALS.md", "DECISION_RULES.md", "THINKING.md",
     "WORKFLOW.md", "WRITING_STYLE.md", "PROJECTS.md", "NOW.md", "IDEAS.md",
 ]
 
@@ -16,6 +16,8 @@ REQUIRED_PROJECTS = ["AventuFilm.md", "Ambialles.md"]
 REQUIRED_TEMPLATES = ["PRD.md", "Proposal.md", "Meeting.md", "Decision.md", "Project.md", "Skill.md"]
 
 REQUIRED_LOGS = ["decisions.md", "lessons.md"]
+
+REQUIRED_MEMORY_FILES = ["USER.md"]
 
 
 def check_root_files():
@@ -85,6 +87,17 @@ def check_logs():
     return errors
 
 
+def check_memories():
+    errors = []
+    memories_dir = REPO_ROOT / "memories"
+    if not memories_dir.is_dir():
+        return ["Diretório memories/ ausente"]
+    for name in REQUIRED_MEMORY_FILES:
+        if not (memories_dir / name).is_file():
+            errors.append(f"Arquivo ausente: memories/{name}")
+    return errors
+
+
 def check_scripts():
     errors = []
     scripts_dir = REPO_ROOT / "scripts"
@@ -101,6 +114,7 @@ def main():
     all_errors += check_templates()
     all_errors += check_skills()
     all_errors += check_logs()
+    all_errors += check_memories()
     all_errors += check_scripts()
 
     if all_errors:
