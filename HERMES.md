@@ -1,6 +1,8 @@
 # HERMES.md — instruções para o Hermes
 
-Este repositório é o BrunoOS — Agent OS pessoal do Bruno — mantido em `/opt/data/AgenteBruno` e sincronizado para `~/.hermes/` na VPS onde o Hermes roda.
+Este repositório é o BrunoOS — Agent OS pessoal do Bruno — mantido em `/opt/data/AgenteBruno-local` e sincronizado para `/opt/data/` na VPS onde o Hermes roda.
+
+**Regra principal:** a fonte oficial é sempre `/opt/data/AgenteBruno-local`. Tudo em `/opt/data/` é espelho operacional. Ajustes de skills, projetos, memória e identidade devem ser feitos aqui primeiro.
 
 ## O que o Hermes deve fazer com este repositório
 
@@ -12,19 +14,19 @@ Este repositório é o BrunoOS — Agent OS pessoal do Bruno — mantido em `/op
 
 ## Sincronização
 
-A fonte oficial vive em `/opt/data/AgenteBruno` e é sincronizada diariamente para `~/.hermes/` via `scripts/update-and-sync.sh`:
+A fonte oficial vive em `/opt/data/AgenteBruno-local` e é sincronizada diariamente para `/opt/data/` via `scripts/update-and-sync.sh`:
 
 ```bash
 chmod +x scripts/update-and-sync.sh
 ./scripts/update-and-sync.sh
 ```
 
-O fluxo copia `SOUL.md` para `~/.hermes/SOUL.md`, `USER.md` para `~/.hermes/memories/USER.md` e as pastas `projects/`, `knowledge/`, `templates/`, `skills/`, `archive/`, `logs/` e `memories/` para `~/.hermes/`, preservando a estrutura.
+O fluxo copia `SOUL.md` para `/opt/data/SOUL.md`, `USER.md` para `/opt/data/USER.md` e as pastas `projects/`, `knowledge/`, `templates/`, `skills/`, `archive/`, `logs/` e `memories/` para `/opt/data/`, preservando a estrutura.
 
 ## Instalação na VPS
 
-1. Clonar/atualizar este repositório em `/opt/data/AgenteBruno`.
-2. Rodar `scripts/update-and-sync.sh` para atualizar o repositório e popular `~/.hermes/`.
+1. Clonar/atualizar este repositório em `/opt/data/AgenteBruno-local`.
+2. Rodar `scripts/update-and-sync.sh` para atualizar o repositório e popular `/opt/data/`.
 3. Testar com um prompt simples: "Leia WORKFLOW.md e me diga quem você é."
 
 ## Validação

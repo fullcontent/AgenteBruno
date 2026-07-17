@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # Diretório do BrunoOS na VPS (espelha a estrutura deste repositório)
-HERMES_DIR="$HOME/.hermes"
+HERMES_DIR="${HERMES_HOME:-$HOME}"
 
 # Diretório raiz do repositório (pai de scripts/)
 REPO_DIR="$(cd "$(dirname "$0")/.." && pwd)"

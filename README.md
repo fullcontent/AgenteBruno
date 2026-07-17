@@ -1,6 +1,8 @@
 # BrunoOS
 
-Agent OS pessoal do Bruno. A fonte oficial fica em `/opt/data/AgenteBruno` e é sincronizada para `~/.hermes/` para o Hermes ler na VPS.
+Agent OS pessoal do Bruno. A fonte oficial fica em `/opt/data/AgenteBruno-local` e é sincronizada para `/opt/data/` para o Hermes ler na VPS.
+
+O fluxo de trabalho é simples: editar aqui, versionar no GitHub, e deixar o sync trazer as mudanças para o Hermes automaticamente.
 
 ## Estrutura
 
@@ -80,7 +82,7 @@ chmod +x scripts/update-and-sync.sh
 ./scripts/update-and-sync.sh
 ```
 
-Copia `SOUL.md` para `~/.hermes/SOUL.md`, `USER.md` para `~/.hermes/memories/USER.md` e as pastas `projects/`, `knowledge/`, `templates/`, `skills/`, `archive/`, `logs/`, `memories/` para `~/.hermes/`.
+Copia `SOUL.md` para `/opt/data/SOUL.md`, `USER.md` para `/opt/data/USER.md` e as pastas `projects/`, `knowledge/`, `templates/`, `skills/`, `archive/`, `logs/`, `memories/` para `/opt/data/`.
 
 ## Validação
 
@@ -92,4 +94,4 @@ Confirma que a estrutura de root files, projects, knowledge, templates, skills, 
 
 ## Uso
 
-Este repositório é a fonte oficial. Ele é sincronizado para `~/.hermes/`, de onde o Hermes carrega o contexto. Ver `HERMES.md` para detalhes de instalação e sincronização na VPS.
+Este repositório é a fonte oficial. Ele é sincronizado para `/opt/data/`, de onde o Hermes carrega o contexto. Ver `HERMES.md` para detalhes de instalação e sincronização na VPS.
