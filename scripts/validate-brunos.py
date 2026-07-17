@@ -60,19 +60,27 @@ def check_templates():
 
 def check_skills():
     errors = []
-    skills_dir = REPO_ROOT / "skills" / "ideation"
-    if not skills_dir.is_dir():
-        return ["Diretório skills/ideation/ ausente"]
+    skills_root = REPO_ROOT / "skills"
+    if not skills_root.is_dir():
+        return ["Diretório skills/ ausente"]
 
-    for skill_dir in sorted(p for p in skills_dir.iterdir() if p.is_dir()):
-        readme = skill_dir / "README.md"
-        workflow = skill_dir / "workflow.md"
-        if not readme.is_file():
-            errors.append(f"Skill sem README.md: {skill_dir.name}")
-        elif not readme.read_text(encoding="utf-8").startswith("---"):
-            errors.append(f"Skill sem frontmatter em README.md: {skill_dir.name}")
-        if not workflow.is_file():
-            errors.append(f"Skill sem workflow.md: {skill_dir.name}")
+    skill_categories = ["ideation", "routines", "operations", "comms", "health"]
+    for category in skill_categories:
+        cat_dir = skills_root / category
+        if not cat_dir.is_dir():
+            errors.append(f"Categoria de skill ausente: skills/{category}/")
+            continue
+            
+        for skill_dir in sorted(p for p in cat_dir.iterdir() if p.is_dir()):
+            readme = skill_dir / "README.md"
+            workflow = skill_dir / "workflow.md"
+            if not readme.is_file():
+                errors.append(f"Skill sem README.md: {category}/{skill_dir.name}")
+            elif not readme.read_text(encoding="utf-8").startswith("---"):
+                errors.append(f"Skill sem frontmatter em README.md: {category}/{skill_dir.name}")
+            if not workflow.is_file():
+                errors.append(f"Skill sem workflow.md: {category}/{skill_dir.name}")
+                
     return errors
 
 
