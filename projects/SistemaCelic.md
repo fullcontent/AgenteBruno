@@ -14,10 +14,18 @@ SaaS desenvolvido pelo Bruno para a Castro Empresarial. A plataforma é a **defi
 - Permitir automação de fluxos (ex.: emissão de NF‑e, boletos, atas via IA + n8n).
 - Escalar a operação para atender a múltiplas UFs e milhares de clientes com baixo custo operacional.
 
-## Status atual (a partir do GitHub, `sistemacelic`)
+## Status atual (a partir do GitHub, `sistemacelic`) — **Atualizado em 17/07/2026**
 - **49 issues abertas**, 379 fechadas — repositório maduro, ativo desde 2019.
 - **Prioridades abertas:** 11 P1, 10 P2, 10 P3, 2 P4 (14 issues sem label de prioridade, principalmente as mais antigas/recentes fora do backlog formal). Nenhuma issue com label `URGENTE!!!` aberta no momento.
-- **Última sprint fechada (02/07/2026):** 4 issues concluídas no mesmo dia — Edição de Interações e Histórico (#448), Clonagem de propostas (#447), Módulo de Atas Estratégicas e Automação de Workflow via IA + n8n (#438), Melhoria UX de notificação (#432).
+- **Última sprint fechada (17/07/2026 — HOJE):** **7 issues concluídas apenas hoje**:
+  - Importação de Extrato (OFX/CSV) e Conciliação Bancária (#467)
+  - Relatório de Ordem de Serviço em Excel (#466)
+  - Exibir apenas Administradores Ativos na lista (#465)
+  - Campo para anexar contrato na OS (#464)
+  - Filtros e organizadores na Dashboard de Pendências (#463)
+  - Visualização completa do texto em Histórico (#462)
+  - Correção: Serviços/IDs no relatório "Listagem Geral" (#461)
+- **Sprint anterior (02/07/2026):** 4 issues concluídas — Edição de Interações e Histórico (#448), Clonagem de propostas (#447), Módulo de Atas Estratégicas e Automação de Workflow via IA + n8n (#438), Melhoria UX de notificação (#432).
 - **Labels usadas:** Correção, Melhoria, Ajuda, Dúvida, Ajuste Visual, URGENTE!!!, Necessidade, além de prioridade (P1–P4) e área (Operacional, Comercial, Financeiro, Infraestrutura, Interface/UX, Feature, Gestão (IA), Projetos (IA), Projetos).
 - **Nenhum PR aberto** no momento.
 
