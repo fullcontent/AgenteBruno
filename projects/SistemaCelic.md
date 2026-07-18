@@ -15,7 +15,8 @@ SaaS desenvolvido pelo Bruno para a Castro Empresarial. A plataforma é a **defi
 - Escalar a operação para atender a múltiplas UFs e milhares de clientes com baixo custo operacional.
 
 ## Status atual (a partir do GitHub, `sistemacelic`) — **Atualizado em 17/07/2026**
-- **49 issues abertas**, 379 fechadas — repositório maduro, ativo desde 2019.
+- **50 issues abertas**, 379 fechadas — repositório maduro, ativo desde 2019.
+- **Issue criada hoje via chat:** [#468](https://github.com/fullcontent/sistemacelic/issues/468) — Incluir ID da Taxa no relatório (Melhoria, P2, Financeiro)
 - **Prioridades abertas:** 11 P1, 10 P2, 10 P3, 2 P4 (14 issues sem label de prioridade, principalmente as mais antigas/recentes fora do backlog formal). Nenhuma issue com label `URGENTE!!!` aberta no momento.
 - **Última sprint fechada (17/07/2026 — HOJE):** **7 issues concluídas apenas hoje**:
   - Importação de Extrato (OFX/CSV) e Conciliação Bancária (#467)
