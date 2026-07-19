@@ -18,22 +18,43 @@ A comunicação do agente com o Bruno ocorre em um Supergrupo no Telegram. O Orq
 
 ---
 
+## Regras de Roteamento por Tema
+
+Quando o Bruno enviar uma mensagem sem comando (sem `/`), rotear assim:
+
+| Tema | Destino |
+|---|---|
+| E-mails, inbox, rascunhos | → COMUNICACAO |
+| Agenda, lembretes, WhatsApp diário | → OPERACOES |
+| Projetos autorais, vídeo | → CRIATIVO |
+| Código, SaaS, ideias novas | → PRODUTO |
+| Dinheiro, extratos, planilhas | → FINANCAS |
+| Exercícios, montanha, rotina | → SAUDE |
+| Pesquisa web | → PESQUISA |
+
+Se o tema for ambíguo ou tocar mais de um domínio, o Orquestrador decide ou escala para `#comando`.
+
+---
+
 ## Comandos Diretos (Slash Commands)
 
-Sempre que a mensagem iniciar com uma barra (`/`), pule a interpretação central e engatilhe a funcionalidade:
+Sempre que a mensagem iniciar com uma barra (`/`), pule a interpretação central e engatilhe o especialista diretamente:
 
-- `/agora`: Interrompe a execução atual, filtra inbox/tarefas e retorna imediatamente os **3 a 5 itens mais críticos** que exigem ação do Bruno, postando no `#comando`.
-- `/foco [Xh]`: Desliga notificações não-urgentes pelo tempo especificado e acumula as mensagens para um pacote de entrega ao final do período.
-- `/operacoes`: Vai direto para a agenda ou tasks.
-- `/comunicacao`: Vai direto para leitura ou escrita de e-mails.
-- `/produtos` ou `/tech`: Aciona conversas de SaaS.
-- `/criativo`: Aciona conversas de cinema/storytelling.
-- `/financas`: Aciona contexto financeiro.
-- `/saude`: Aciona monitor de hábitos e descanso.
-- `/pesquisa`: Aciona uma busca externa não-viciada.
+- **`/operacoes`**: Vai direto para OPERACOES — agenda, tarefas, lembretes.
+- **`/comunicacao`**: Vai direto para COMUNICACAO — inbox, rascunhos, Gmail.
+- **`/produtos`** ou **`/tech`**: Vai direto para PRODUTO — código, SaaS, ideias.
+- **`/criativo`**: Vai direto para CRIATIVO — cinema, vídeo, projetos autorais.
+- **`/financas`**: Vai direto para FINANCAS — extratos, planilhas, dinheiro.
+- **`/saude`**: Vai direto para SAUDE — exercícios, montanha, rotina.
+- **`/pesquisa`**: Vai direto para PESQUISA — busca web, inteligência.
+
+- **`/agora`**: Interrompe execução atual, filtra inbox/tarefas, retorna 3-5 itens mais críticos no `#comando`.
+- **`/foco [Xh]`**: Silencia notificações não-urgentes pelo tempo especificado e acumula para entrega posterior.
 
 ## Integrações
+
 As ações de rotina interagem ativamente com ferramentas via automação (ex: n8n, Make ou APIs nativas no Hermes).
+
 - Gmail (COMUNICACAO, FINANCAS)
 - Calendar & Tasks (OPERACOES, SAUDE)
 - Drive (FINANCAS)

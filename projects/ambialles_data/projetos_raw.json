@@ -1,0 +1,923 @@
+{
+  "_meta": {
+    "fetched_at": "2026-07-17 06:26 UTC",
+    "page": "Projetos",
+    "page_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+  },
+  "recordMap": {
+    "block": {
+      "38e22450-071d-80c7-bd2f-d24488c1853a": {
+        "spaceId": "2d822450-071d-81f4-9499-00031e529687",
+        "value": {
+          "value": {
+            "id": "38e22450-071d-80c7-bd2f-d24488c1853a",
+            "version": 108,
+            "type": "collection_view_page",
+            "view_ids": [
+              "38e22450-071d-8019-a84b-000c59782153",
+              "38e22450-071d-8082-84ab-000c73fbb88f",
+              "38e22450-071d-8053-be62-000c9d3e2a42"
+            ],
+            "collection_id": "38e22450-071d-8025-b854-000b3b958559",
+            "format": {
+              "site_id": "3a022450-071d-805f-9c75-0079d2e6e984",
+              "page_cover": "attachment:bee555a7-57cf-473d-aaa7-8ec0a656a012:ai-generated-1782704400525.png",
+              "collection_pointer": {
+                "id": "38e22450-071d-8025-b854-000b3b958559",
+                "table": "collection",
+                "spaceId": "2d822450-071d-81f4-9499-00031e529687"
+              },
+              "collection_pointers": [
+                {
+                  "id": "38e22450-071d-8025-b854-000b3b958559",
+                  "table": "collection",
+                  "spaceId": "2d822450-071d-81f4-9499-00031e529687"
+                }
+              ],
+              "page_cover_position": 0.5
+            },
+            "permissions": [
+              {
+                "role": "reader",
+                "type": "public_permission",
+                "is_site": true,
+                "added_timestamp": 1784268665904,
+                "is_public_share_link": true
+              }
+            ],
+            "created_time": 1782703023741,
+            "last_edited_time": 1784269097850,
+            "parent_id": "42fdabd9-1762-4575-900c-ba27289f62fd",
+            "parent_table": "block",
+            "alive": true,
+            "file_ids": [
+              "bee555a7-57cf-473d-aaa7-8ec0a656a012"
+            ],
+            "space_id": "2d822450-071d-81f4-9499-00031e529687",
+            "crdt_format_version": 1,
+            "crdt_data": {
+              "title": {
+                "r": "XcfeYaQ2XA8stNmM2CfG-Q,\"start\",\"end\"",
+                "n": {
+                  "XcfeYaQ2XA8stNmM2CfG-Q,\"start\",\"end\"": {
+                    "s": {
+                      "x": "XcfeYaQ2XA8stNmM2CfG-Q",
+                      "i": [
+                        {
+                          "t": "s"
+                        },
+                        {
+                          "t": "e"
+                        }
+                      ],
+                      "l": ""
+                    },
+                    "c": []
+                  }
+                }
+              }
+            }
+          },
+          "role": "reader"
+        }
+      },
+      "42fdabd9-1762-4575-900c-ba27289f62fd": {
+        "spaceId": "2d822450-071d-81f4-9499-00031e529687",
+        "value": {
+          "role": "none"
+        }
+      }
+    },
+    "collection": {
+      "38e22450-071d-8025-b854-000b3b958559": {
+        "spaceId": "2d822450-071d-81f4-9499-00031e529687",
+        "value": {
+          "value": {
+            "id": "38e22450-071d-8025-b854-000b3b958559",
+            "version": 160,
+            "name": [
+              [
+                "Desenvolvimento"
+              ]
+            ],
+            "description": [
+              [
+                "Planejamento de toda a plataforma."
+              ]
+            ],
+            "schema": {
+              "IYcd": {
+                "name": "Ajuda a Vender/Implantar/Reter",
+                "type": "select",
+                "options": [
+                  {
+                    "id": "9e4f4ffb-c455-499f-a9b7-8f0aaae230fa",
+                    "color": "green",
+                    "value": "Vender"
+                  },
+                  {
+                    "id": "0a329da2-d202-40a5-b21c-77c83d96d4b3",
+                    "color": "blue",
+                    "value": "Implantar"
+                  },
+                  {
+                    "id": "54c5a3a1-e69f-416e-b716-81278bd5d01e",
+                    "color": "purple",
+                    "value": "Reter"
+                  },
+                  {
+                    "id": "ed8f47d0-1d31-40d0-ba94-df56ca25f7f3",
+                    "color": "gray",
+                    "value": "Base técnica"
+                  }
+                ]
+              },
+              "TnwV": {
+                "name": "Date",
+                "type": "date",
+                "date_format": "DD/MM/YYYY",
+                "workflow_template_instance": {
+                  "template_id": "productRoadmapCollection.dateProperty"
+                }
+              },
+              "T}na": {
+                "name": "Category",
+                "type": "multi_select",
+                "options": [
+                  {
+                    "id": "8c1b7486-cbc3-4275-8bb7-b155d4b5a1b9",
+                    "color": "purple",
+                    "value": "New Feature"
+                  },
+                  {
+                    "id": "b1190d14-bdbf-497a-afdc-3ed0e6e77185",
+                    "color": "default",
+                    "value": "Enhancement"
+                  },
+                  {
+                    "id": "447798e6-3572-4d5d-98c6-81e45cce0a76",
+                    "color": "yellow",
+                    "value": "Bug Fix"
+                  },
+                  {
+                    "id": "83218d48-7e7c-4c6d-8642-9e67435f4006",
+                    "color": "orange",
+                    "value": "Performance Improvement"
+                  },
+                  {
+                    "id": "6f229123-3ea1-4c08-a4ae-8a6116f5377a",
+                    "color": "red",
+                    "value": "UI/UX"
+                  }
+                ],
+                "workflow_template_instance": {
+                  "template_id": "productRoadmapCollection.categoryProperty"
+                }
+              },
+              "gNgo": {
+                "name": "Status",
+                "type": "status",
+                "groups": [
+                  {
+                    "id": "7f59ecf1-28e6-4303-b259-869e464baf84",
+                    "name": "To-do",
+                    "color": "gray",
+                    "optionIds": [
+                      "itFu",
+                      "\\Hz;"
+                    ]
+                  },
+                  {
+                    "id": "d355000c-1f57-4031-a296-6412cd11e1eb",
+                    "name": "In progress",
+                    "color": "blue",
+                    "optionIds": [
+                      "7e4f8156-5ddd-4637-bbf6-46e60884e5e2"
+                    ]
+                  },
+                  {
+                    "id": "ba0eb40c-6466-45c5-b08a-48c98a95d742",
+                    "name": "Complete",
+                    "color": "green",
+                    "optionIds": [
+                      "ddf25ae2-d666-4a55-a5cf-08d3592a3698",
+                      "]MsX",
+                      "J@Gx"
+                    ]
+                  }
+                ],
+                "options": [
+                  {
+                    "id": "itFu",
+                    "color": "brown",
+                    "value": "Backlog"
+                  },
+                  {
+                    "id": "\\Hz;",
+                    "color": "gray",
+                    "value": "Planned"
+                  },
+                  {
+                    "id": "7e4f8156-5ddd-4637-bbf6-46e60884e5e2",
+                    "color": "blue",
+                    "value": "In progress"
+                  },
+                  {
+                    "id": "ddf25ae2-d666-4a55-a5cf-08d3592a3698",
+                    "color": "green",
+                    "value": "Completed"
+                  },
+                  {
+                    "id": "J@Gx",
+                    "color": "red",
+                    "value": "Cancelled"
+                  },
+                  {
+                    "id": "]MsX",
+                    "color": "gray",
+                    "value": "On Hold"
+                  }
+                ],
+                "defaultOption": "Planned",
+                "workflow_template_instance": {
+                  "template_id": "productRoadmapCollection.statusProperty"
+                }
+              },
+              "m}X\\": {
+                "name": "Priority",
+                "type": "select",
+                "options": [
+                  {
+                    "id": "viNr",
+                    "color": "red",
+                    "value": "High"
+                  },
+                  {
+                    "id": "MRR`",
+                    "color": "yellow",
+                    "value": "Medium"
+                  },
+                  {
+                    "id": "Iey>",
+                    "color": "green",
+                    "value": "Low"
+                  }
+                ],
+                "workflow_template_instance": {
+                  "template_id": "productRoadmapCollection.priorityProperty"
+                }
+              },
+              "title": {
+                "name": "Feature",
+                "type": "title",
+                "workflow_template_instance": {
+                  "template_id": "productRoadmapCollection.titleProperty"
+                }
+              },
+              "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8": {
+                "name": "Prioridade",
+                "type": "select",
+                "options": [
+                  {
+                    "id": "uVUE",
+                    "color": "red",
+                    "value": "🔴 Alta"
+                  },
+                  {
+                    "id": "<h`p",
+                    "color": "yellow",
+                    "value": "🟡 Média"
+                  },
+                  {
+                    "id": "fma{",
+                    "color": "green",
+                    "value": "🟢 Baixa"
+                  }
+                ]
+              },
+              "d7a2efdf-90ab-4de2-acc4-0332358a7bda": {
+                "name": "Responsável",
+                "type": "select",
+                "options": [
+                  {
+                    "id": "uVUE",
+                    "color": "blue",
+                    "value": "Douglas"
+                  },
+                  {
+                    "id": "<h`p",
+                    "color": "green",
+                    "value": "Bruno"
+                  },
+                  {
+                    "id": "fma{",
+                    "color": "orange",
+                    "value": "Wilson"
+                  },
+                  {
+                    "id": "`>Il",
+                    "color": "pink",
+                    "value": "Mireylle"
+                  }
+                ]
+              }
+            },
+            "icon": "/icons/snippet_yellow.svg",
+            "format": {
+              "layout_pointer": {
+                "id": "38e22450-071d-80f3-88a4-006edb695da9",
+                "table": "layout",
+                "spaceId": "2d822450-071d-81f4-9499-00031e529687"
+              },
+              "item_name_config": {
+                "plural": "projects",
+                "singular": "project"
+              },
+              "ai_suggested_properties": [
+                {
+                  "name": "Risk Tier",
+                  "type": "select",
+                  "options": [
+                    {
+                      "id": "GnEa",
+                      "color": "yellow",
+                      "value": "Low"
+                    },
+                    {
+                      "id": "f|dE",
+                      "color": "gray",
+                      "value": "Medium"
+                    },
+                    {
+                      "id": "K[Fh",
+                      "color": "blue",
+                      "value": "High"
+                    },
+                    {
+                      "id": "b{np",
+                      "color": "purple",
+                      "value": "Critical"
+                    }
+                  ]
+                },
+                {
+                  "name": "Customer Sentiment",
+                  "type": "select",
+                  "options": [
+                    {
+                      "id": "tz}Y",
+                      "color": "red",
+                      "value": "Positive"
+                    },
+                    {
+                      "id": "^RdN",
+                      "color": "default",
+                      "value": "Neutral"
+                    },
+                    {
+                      "id": "wEd}",
+                      "color": "pink",
+                      "value": "Negative"
+                    }
+                  ]
+                },
+                {
+                  "name": "Competitor Impact",
+                  "type": "select",
+                  "options": [
+                    {
+                      "id": "{_?u",
+                      "color": "orange",
+                      "value": "None"
+                    },
+                    {
+                      "id": "MEs\\",
+                      "color": "red",
+                      "value": "Minor"
+                    },
+                    {
+                      "id": "UAe\\",
+                      "color": "blue",
+                      "value": "Moderate"
+                    },
+                    {
+                      "id": "t]i<",
+                      "color": "gray",
+                      "value": "Major"
+                    },
+                    {
+                      "id": "Co:K",
+                      "color": "purple",
+                      "value": "Blocking"
+                    }
+                  ]
+                },
+                {
+                  "name": "Public Mentions Count",
+                  "type": "number"
+                }
+              ],
+              "collection_page_properties": [
+                {
+                  "visible": true,
+                  "property": "title"
+                },
+                {
+                  "visible": true,
+                  "property": "gNgo"
+                },
+                {
+                  "visible": true,
+                  "property": "?y:P"
+                },
+                {
+                  "visible": true,
+                  "property": "m}X\\"
+                },
+                {
+                  "visible": true,
+                  "property": "T}na"
+                },
+                {
+                  "visible": true,
+                  "property": "}:nV"
+                },
+                {
+                  "visible": true,
+                  "property": "]=:i"
+                },
+                {
+                  "visible": true,
+                  "property": "TnwV"
+                }
+              ],
+              "workflow_template_instance": {
+                "template_id": "productRoadmapCollection"
+              },
+              "collection_default_template": {
+                "template_page_id": "38e22450-071d-8062-895d-d68fc1ac2b4d"
+              }
+            },
+            "parent_id": "38e22450-071d-80c7-bd2f-d24488c1853a",
+            "parent_table": "block",
+            "alive": true,
+            "template_pages": [
+              "38e22450-071d-8062-895d-d68fc1ac2b4d"
+            ],
+            "migrated": true,
+            "space_id": "2d822450-071d-81f4-9499-00031e529687",
+            "deleted_schema": {
+              "?y:P": {
+                "name": "Owner",
+                "type": "person",
+                "workflow_template_instance": {
+                  "template_id": "productRoadmapCollection.ownerProperty"
+                }
+              },
+              "]=:i": {
+                "name": "Team",
+                "type": "multi_select",
+                "options": [
+                  {
+                    "id": "txgv",
+                    "color": "green",
+                    "value": "AI"
+                  },
+                  {
+                    "id": "O[];",
+                    "color": "red",
+                    "value": "Platform"
+                  },
+                  {
+                    "id": "vy[|",
+                    "color": "default",
+                    "value": "Security"
+                  },
+                  {
+                    "id": "Djgx",
+                    "color": "purple",
+                    "value": "Mobile"
+                  }
+                ],
+                "workflow_template_instance": {
+                  "template_id": "productRoadmapCollection.teamProperty"
+                }
+              },
+              "}:nV": {
+                "name": "Effort",
+                "type": "select",
+                "options": [
+                  {
+                    "id": "G=S^",
+                    "color": "red",
+                    "value": "red"
+                  },
+                  {
+                    "id": "cOb~",
+                    "color": "orange",
+                    "value": "L"
+                  },
+                  {
+                    "id": "=KTG",
+                    "color": "yellow",
+                    "value": "M"
+                  },
+                  {
+                    "id": "@CF=",
+                    "color": "blue",
+                    "value": "S"
+                  },
+                  {
+                    "id": "Tj:m",
+                    "color": "green",
+                    "value": "XS"
+                  }
+                ],
+                "workflow_template_instance": {
+                  "template_id": "productRoadmapCollection.effortProperty"
+                }
+              }
+            },
+            "created_time": 1782703025399,
+            "last_edited_time": 1783468578609,
+            "created_by_table": "notion_user",
+            "created_by_id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3",
+            "last_edited_by_table": "notion_user",
+            "last_edited_by_id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+          },
+          "role": "reader"
+        }
+      }
+    },
+    "collection_view": {
+      "38e22450-071d-8019-a84b-000c59782153": {
+        "spaceId": "2d822450-071d-81f4-9499-00031e529687",
+        "value": {
+          "value": {
+            "id": "38e22450-071d-8019-a84b-000c59782153",
+            "version": 31,
+            "type": "table",
+            "name": "TUDO",
+            "format": {
+              "table_wrap": false,
+              "show_page_icon": false,
+              "table_properties": [
+                {
+                  "wrap": true,
+                  "width": 564,
+                  "visible": true,
+                  "property": "title"
+                },
+                {
+                  "wrap": true,
+                  "width": 144,
+                  "visible": true,
+                  "property": "gNgo"
+                },
+                {
+                  "wrap": true,
+                  "width": 101,
+                  "visible": true,
+                  "property": "m}X\\"
+                },
+                {
+                  "wrap": false,
+                  "width": 147,
+                  "visible": true,
+                  "property": "T}na"
+                },
+                {
+                  "width": 196,
+                  "visible": true,
+                  "property": "TnwV"
+                }
+              ],
+              "collection_pointer": {
+                "id": "38e22450-071d-8025-b854-000b3b958559",
+                "table": "collection",
+                "spaceId": "2d822450-071d-81f4-9499-00031e529687"
+              },
+              "collection_view_icon": "/icons/star_gray.svg",
+              "subitem_filter_scope": "parents_and_subitems",
+              "table_frozen_column_index": -1,
+              "workflow_template_instance": {
+                "template_id": "productRoadmapCollection.allProjectsView"
+              }
+            },
+            "parent_id": "38e22450-071d-80c7-bd2f-d24488c1853a",
+            "parent_table": "block",
+            "alive": true,
+            "page_sort": [
+              "38e22450-071d-801a-b77b-dac680455066"
+            ],
+            "query2": {
+              "sort": [
+                {
+                  "property": "gNgo",
+                  "direction": "ascending"
+                }
+              ]
+            },
+            "space_id": "2d822450-071d-81f4-9499-00031e529687",
+            "created_time": 1782703023892,
+            "last_edited_time": 1782704042206,
+            "created_by_table": "notion_user",
+            "created_by_id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+          },
+          "role": "reader"
+        }
+      },
+      "38e22450-071d-8082-84ab-000c73fbb88f": {
+        "spaceId": "2d822450-071d-81f4-9499-00031e529687",
+        "value": {
+          "value": {
+            "id": "38e22450-071d-8082-84ab-000c73fbb88f",
+            "version": 62,
+            "type": "board",
+            "name": "Kanban",
+            "format": {
+              "table_wrap": true,
+              "card_layout": {
+                "mode": "compact"
+              },
+              "board_columns": [
+                {
+                  "value": {
+                    "type": "status",
+                    "value": {
+                      "type": "by_option",
+                      "option": "Backlog"
+                    }
+                  },
+                  "hidden": true,
+                  "property": "gNgo"
+                },
+                {
+                  "value": {
+                    "type": "status",
+                    "value": {
+                      "type": "by_option",
+                      "option": "Planned"
+                    }
+                  },
+                  "hidden": false,
+                  "property": "gNgo"
+                },
+                {
+                  "value": {
+                    "type": "status",
+                    "value": {
+                      "type": "by_option",
+                      "option": "In progress"
+                    }
+                  },
+                  "hidden": false,
+                  "property": "gNgo"
+                },
+                {
+                  "value": {
+                    "type": "status",
+                    "value": {
+                      "type": "by_option",
+                      "option": "Completed"
+                    }
+                  },
+                  "hidden": true,
+                  "property": "gNgo"
+                },
+                {
+                  "value": {
+                    "type": "status",
+                    "value": {
+                      "type": "by_option",
+                      "option": "Cancelled"
+                    }
+                  },
+                  "hidden": true,
+                  "property": "gNgo"
+                },
+                {
+                  "value": {
+                    "type": "status",
+                    "value": {
+                      "type": "by_option",
+                      "option": "On Hold"
+                    }
+                  },
+                  "hidden": true,
+                  "property": "gNgo"
+                }
+              ],
+              "show_page_icon": false,
+              "board_columns_by": {
+                "sort": {
+                  "type": "ascending"
+                },
+                "type": "status",
+                "groupBy": "option",
+                "property": "gNgo",
+                "hideEmptyGroups": false,
+                "disableBoardColorColumns": false
+              },
+              "board_properties": [
+                {
+                  "visible": true,
+                  "property": "title"
+                },
+                {
+                  "visible": true,
+                  "property": "m}X\\"
+                },
+                {
+                  "visible": true,
+                  "property": "T}na"
+                },
+                {
+                  "visible": true,
+                  "property": "TnwV"
+                },
+                {
+                  "visible": true,
+                  "property": "gNgo"
+                }
+              ],
+              "table_properties": [
+                {
+                  "wrap": true,
+                  "width": 650,
+                  "visible": true,
+                  "property": "title"
+                },
+                {
+                  "wrap": true,
+                  "width": 144,
+                  "visible": true,
+                  "property": "gNgo"
+                },
+                {
+                  "wrap": true,
+                  "width": 136,
+                  "visible": true,
+                  "property": "m}X\\"
+                },
+                {
+                  "wrap": false,
+                  "width": 107,
+                  "visible": true,
+                  "property": "T}na"
+                },
+                {
+                  "width": 196,
+                  "visible": true,
+                  "property": "TnwV"
+                }
+              ],
+              "collection_pointer": {
+                "id": "38e22450-071d-8025-b854-000b3b958559",
+                "table": "collection",
+                "spaceId": "2d822450-071d-81f4-9499-00031e529687"
+              },
+              "subitem_filter_scope": "parents",
+              "table_subitem_toggle_column": "title"
+            },
+            "parent_id": "38e22450-071d-80c7-bd2f-d24488c1853a",
+            "parent_table": "block",
+            "alive": true,
+            "query2": {
+              "aggregations": [
+                {
+                  "aggregator": "count",
+                  "enforceMaxAggregationLimit": true
+                }
+              ]
+            },
+            "space_id": "2d822450-071d-81f4-9499-00031e529687",
+            "created_time": 1782703467222,
+            "last_edited_time": 1782704553519,
+            "created_by_table": "notion_user",
+            "created_by_id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+          },
+          "role": "reader"
+        }
+      },
+      "38e22450-071d-8053-be62-000c9d3e2a42": {
+        "spaceId": "2d822450-071d-81f4-9499-00031e529687",
+        "value": {
+          "value": {
+            "id": "38e22450-071d-8053-be62-000c9d3e2a42",
+            "version": 31,
+            "type": "timeline",
+            "name": "Timeline",
+            "format": {
+              "show_page_icon": false,
+              "table_properties": [
+                {
+                  "wrap": true,
+                  "width": 650,
+                  "visible": true,
+                  "property": "title"
+                },
+                {
+                  "wrap": true,
+                  "width": 144,
+                  "visible": true,
+                  "property": "gNgo"
+                },
+                {
+                  "wrap": true,
+                  "width": 136,
+                  "visible": true,
+                  "property": "m}X\\"
+                },
+                {
+                  "wrap": false,
+                  "width": 107,
+                  "visible": true,
+                  "property": "T}na"
+                },
+                {
+                  "width": 196,
+                  "visible": true,
+                  "property": "TnwV"
+                }
+              ],
+              "collection_pointer": {
+                "id": "38e22450-071d-8025-b854-000b3b958559",
+                "table": "collection",
+                "spaceId": "2d822450-071d-81f4-9499-00031e529687"
+              },
+              "timeline_preference": {
+                "zoomLevel": "month",
+                "centerTimestamp": 1783379903780.8047
+              },
+              "timeline_properties": [
+                {
+                  "visible": false,
+                  "property": "title"
+                },
+                {
+                  "visible": false,
+                  "property": "T}na"
+                },
+                {
+                  "visible": false,
+                  "property": "TnwV"
+                },
+                {
+                  "visible": false,
+                  "property": "m}X\\"
+                },
+                {
+                  "visible": false,
+                  "property": "gNgo"
+                }
+              ],
+              "timeline_show_table": false,
+              "subitem_filter_scope": "parents_and_subitems",
+              "timeline_table_properties": [
+                {
+                  "width": 280,
+                  "visible": true,
+                  "property": "title"
+                },
+                {
+                  "width": 200,
+                  "visible": false,
+                  "property": "T}na"
+                },
+                {
+                  "width": 200,
+                  "visible": false,
+                  "property": "TnwV"
+                },
+                {
+                  "width": 200,
+                  "visible": false,
+                  "property": "m}X\\"
+                },
+                {
+                  "width": 200,
+                  "visible": false,
+                  "property": "gNgo"
+                }
+              ],
+              "table_subitem_toggle_column": "title"
+            },
+            "parent_id": "38e22450-071d-80c7-bd2f-d24488c1853a",
+            "parent_table": "block",
+            "alive": true,
+            "query2": {
+              "timeline_by": "TnwV"
+            },
+            "space_id": "2d822450-071d-81f4-9499-00031e529687",
+            "created_time": 1782703682669,
+            "last_edited_time": 1782703898627,
+            "created_by_table": "notion_user",
+            "created_by_id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+          },
+          "role": "reader"
+        }
+      }
+    }
+  }
+}

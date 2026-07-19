@@ -8,7 +8,7 @@ HERMES_DIR="${HERMES_HOME:-$HOME}"
 REPO_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 
 ROOT_FILES=(README.md SOUL.md USER.md GOALS.md DECISION_RULES.md THINKING.md WORKFLOW.md WRITING_STYLE.md PROJECTS.md NOW.md IDEAS.md HERMES.md)
-FOLDERS=(projects knowledge templates skills archive logs memories scripts)
+FOLDERS=(projects knowledge templates skills archive logs memories scripts agents)
 
 echo "⏳ Iniciando sincronização do BrunoOS..."
 

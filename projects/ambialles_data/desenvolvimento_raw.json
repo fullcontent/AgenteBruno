@@ -1,0 +1,4341 @@
+{
+  "schema": {
+    "object": "data_source",
+    "id": "38e22450-071d-8025-b854-000b3b958559",
+    "cover": null,
+    "icon": {
+      "type": "icon",
+      "icon": {
+        "name": "snippet",
+        "color": "yellow"
+      }
+    },
+    "created_time": "2026-06-29T03:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "37ad872b-594c-81cc-b6cc-0002e2c51f7e"
+    },
+    "last_edited_time": "2026-07-17T07:05:00.000Z",
+    "title": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Desenvolvimento",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Desenvolvimento",
+        "href": null
+      }
+    ],
+    "description": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Planejamento de toda a plataforma.",
+          "link": null
+        },
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        },
+        "plain_text": "Planejamento de toda a plataforma.",
+        "href": null
+      }
+    ],
+    "is_inline": false,
+    "properties": {
+      "Ajuda a Vender/Implantar/Reter": {
+        "id": "IYcd",
+        "name": "Ajuda a Vender/Implantar/Reter",
+        "description": null,
+        "type": "select",
+        "select": {
+          "options": [
+            {
+              "id": "9e4f4ffb-c455-499f-a9b7-8f0aaae230fa",
+              "name": "Vender",
+              "color": "green",
+              "description": null
+            },
+            {
+              "id": "0a329da2-d202-40a5-b21c-77c83d96d4b3",
+              "name": "Implantar",
+              "color": "blue",
+              "description": null
+            },
+            {
+              "id": "54c5a3a1-e69f-416e-b716-81278bd5d01e",
+              "name": "Reter",
+              "color": "purple",
+              "description": null
+            },
+            {
+              "id": "ed8f47d0-1d31-40d0-ba94-df56ca25f7f3",
+              "name": "Base técnica",
+              "color": "gray",
+              "description": null
+            }
+          ]
+        }
+      },
+      "Date": {
+        "id": "TnwV",
+        "name": "Date",
+        "description": null,
+        "type": "date",
+        "date": {}
+      },
+      "Category": {
+        "id": "T%7Dna",
+        "name": "Category",
+        "description": null,
+        "type": "multi_select",
+        "multi_select": {
+          "options": [
+            {
+              "id": "8c1b7486-cbc3-4275-8bb7-b155d4b5a1b9",
+              "name": "New Feature",
+              "color": "purple",
+              "description": null
+            },
+            {
+              "id": "b1190d14-bdbf-497a-afdc-3ed0e6e77185",
+              "name": "Enhancement",
+              "color": "default",
+              "description": null
+            },
+            {
+              "id": "447798e6-3572-4d5d-98c6-81e45cce0a76",
+              "name": "Bug Fix",
+              "color": "yellow",
+              "description": null
+            },
+            {
+              "id": "83218d48-7e7c-4c6d-8642-9e67435f4006",
+              "name": "Performance Improvement",
+              "color": "orange",
+              "description": null
+            },
+            {
+              "id": "6f229123-3ea1-4c08-a4ae-8a6116f5377a",
+              "name": "UI/UX",
+              "color": "red",
+              "description": null
+            }
+          ]
+        }
+      },
+      "Status": {
+        "id": "gNgo",
+        "name": "Status",
+        "description": null,
+        "type": "status",
+        "status": {
+          "options": [
+            {
+              "id": "itFu",
+              "name": "Backlog",
+              "color": "brown",
+              "description": null
+            },
+            {
+              "id": "\\Hz;",
+              "name": "Planned",
+              "color": "gray",
+              "description": null
+            },
+            {
+              "id": "7e4f8156-5ddd-4637-bbf6-46e60884e5e2",
+              "name": "In progress",
+              "color": "blue",
+              "description": null
+            },
+            {
+              "id": "ddf25ae2-d666-4a55-a5cf-08d3592a3698",
+              "name": "Completed",
+              "color": "green",
+              "description": null
+            },
+            {
+              "id": "J@Gx",
+              "name": "Cancelled",
+              "color": "red",
+              "description": null
+            },
+            {
+              "id": "]MsX",
+              "name": "On Hold",
+              "color": "gray",
+              "description": null
+            }
+          ],
+          "groups": [
+            {
+              "id": "7f59ecf1-28e6-4303-b259-869e464baf84",
+              "name": "To-do",
+              "color": "gray",
+              "option_ids": [
+                "itFu",
+                "\\Hz;"
+              ]
+            },
+            {
+              "id": "d355000c-1f57-4031-a296-6412cd11e1eb",
+              "name": "In progress",
+              "color": "blue",
+              "option_ids": [
+                "7e4f8156-5ddd-4637-bbf6-46e60884e5e2"
+              ]
+            },
+            {
+              "id": "ba0eb40c-6466-45c5-b08a-48c98a95d742",
+              "name": "Complete",
+              "color": "green",
+              "option_ids": [
+                "ddf25ae2-d666-4a55-a5cf-08d3592a3698",
+                "]MsX",
+                "J@Gx"
+              ]
+            }
+          ]
+        }
+      },
+      "Priority": {
+        "id": "m%7DX%5C",
+        "name": "Priority",
+        "description": null,
+        "type": "select",
+        "select": {
+          "options": [
+            {
+              "id": "viNr",
+              "name": "High",
+              "color": "red",
+              "description": null
+            },
+            {
+              "id": "MRR`",
+              "name": "Medium",
+              "color": "yellow",
+              "description": null
+            },
+            {
+              "id": "Iey>",
+              "name": "Low",
+              "color": "green",
+              "description": null
+            }
+          ]
+        }
+      },
+      "Feature": {
+        "id": "title",
+        "name": "Feature",
+        "description": null,
+        "type": "title",
+        "title": {}
+      },
+      "Prioridade": {
+        "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+        "name": "Prioridade",
+        "description": null,
+        "type": "select",
+        "select": {
+          "options": [
+            {
+              "id": "uVUE",
+              "name": "🔴 Alta",
+              "color": "red",
+              "description": null
+            },
+            {
+              "id": "<h`p",
+              "name": "🟡 Média",
+              "color": "yellow",
+              "description": null
+            },
+            {
+              "id": "fma{",
+              "name": "🟢 Baixa",
+              "color": "green",
+              "description": null
+            }
+          ]
+        }
+      },
+      "Responsável": {
+        "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+        "name": "Responsável",
+        "description": null,
+        "type": "select",
+        "select": {
+          "options": [
+            {
+              "id": "uVUE",
+              "name": "Douglas",
+              "color": "blue",
+              "description": null
+            },
+            {
+              "id": "<h`p",
+              "name": "Bruno",
+              "color": "green",
+              "description": null
+            },
+            {
+              "id": "fma{",
+              "name": "Wilson",
+              "color": "orange",
+              "description": null
+            },
+            {
+              "id": "`>Il",
+              "name": "Mireylle",
+              "color": "pink",
+              "description": null
+            }
+          ]
+        }
+      }
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+    },
+    "database_parent": {
+      "type": "block_id",
+      "block_id": "42fdabd9-1762-4575-900c-ba27289f62fd"
+    },
+    "url": "https://app.notion.com/p/38e22450071d80c7bd2fd24488c1853a",
+    "public_url": "https://trapezoidal-aragon-9fc.notion.site/38e22450071d80c7bd2fd24488c1853a",
+    "in_trash": false,
+    "archived": false,
+    "request_id": "bcdfa294-c1e1-4a40-b0aa-5c0cabc6886a"
+  },
+  "records": {
+    "object": "list",
+    "results": [
+      {
+        "object": "page",
+        "id": "39722450-071d-8110-8436-f6dfe4f8e365",
+        "created_time": "2026-07-08T15:54:00.000Z",
+        "last_edited_time": "2026-07-08T15:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "37ad872b-594c-81cc-b6cc-0002e2c51f7e"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "37ad872b-594c-81cc-b6cc-0002e2c51f7e"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-07-15",
+              "end": null,
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "447798e6-3572-4d5d-98c6-81e45cce0a76",
+                "name": "Bug Fix",
+                "color": "yellow"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "itFu",
+              "name": "Backlog",
+              "color": "brown"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "viNr",
+              "name": "High",
+              "color": "red"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Aceitar tipos de renovação (RLAC/RLAS/RLO/LOR) no cadastro de Licença",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Aceitar tipos de renovação (RLAC/RLAS/RLO/LOR) no cadastro de Licença",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": {
+              "id": "<h`p",
+              "name": "Bruno",
+              "color": "green"
+            }
+          }
+        },
+        "url": "https://app.notion.com/p/Aceitar-tipos-de-renova-o-RLAC-RLAS-RLO-LOR-no-cadastro-de-Licen-a-39722450071d81108436f6dfe4f8e365",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Aceitar-tipos-de-renova-o-RLAC-RLAS-RLO-LOR-no-cadastro-de-Licen-a-39722450071d81108436f6dfe4f8e365",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "39722450-071d-8111-9f3d-c9038a773d97",
+        "created_time": "2026-07-08T15:54:00.000Z",
+        "last_edited_time": "2026-07-08T15:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "37ad872b-594c-81cc-b6cc-0002e2c51f7e"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "37ad872b-594c-81cc-b6cc-0002e2c51f7e"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-07-25",
+              "end": null,
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "8c1b7486-cbc3-4275-8bb7-b155d4b5a1b9",
+                "name": "New Feature",
+                "color": "purple"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "itFu",
+              "name": "Backlog",
+              "color": "brown"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "viNr",
+              "name": "High",
+              "color": "red"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Upload de PDF no cadastro inicial — leitura automática com parser local",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Upload de PDF no cadastro inicial — leitura automática com parser local",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": {
+              "id": "<h`p",
+              "name": "Bruno",
+              "color": "green"
+            }
+          }
+        },
+        "url": "https://app.notion.com/p/Upload-de-PDF-no-cadastro-inicial-leitura-autom-tica-com-parser-local-39722450071d81119f3dc9038a773d97",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Upload-de-PDF-no-cadastro-inicial-leitura-autom-tica-com-parser-local-39722450071d81119f3dc9038a773d97",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "39722450-071d-813e-bd7f-e80fa45467fb",
+        "created_time": "2026-07-08T15:54:00.000Z",
+        "last_edited_time": "2026-07-08T15:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "37ad872b-594c-81cc-b6cc-0002e2c51f7e"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "37ad872b-594c-81cc-b6cc-0002e2c51f7e"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-08-15",
+              "end": null,
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "8c1b7486-cbc3-4275-8bb7-b155d4b5a1b9",
+                "name": "New Feature",
+                "color": "purple"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "itFu",
+              "name": "Backlog",
+              "color": "brown"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "MRR`",
+              "name": "Medium",
+              "color": "yellow"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Leitura de PDF por IA multi-provedor (fallback configurável)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Leitura de PDF por IA multi-provedor (fallback configurável)",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": {
+              "id": "<h`p",
+              "name": "Bruno",
+              "color": "green"
+            }
+          }
+        },
+        "url": "https://app.notion.com/p/Leitura-de-PDF-por-IA-multi-provedor-fallback-configur-vel-39722450071d813ebd7fe80fa45467fb",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Leitura-de-PDF-por-IA-multi-provedor-fallback-configur-vel-39722450071d813ebd7fe80fa45467fb",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "39722450-071d-81d9-8683-caa3ce62c28a",
+        "created_time": "2026-07-08T15:54:00.000Z",
+        "last_edited_time": "2026-07-08T15:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "37ad872b-594c-81cc-b6cc-0002e2c51f7e"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "37ad872b-594c-81cc-b6cc-0002e2c51f7e"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-07-21",
+              "end": null,
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "8c1b7486-cbc3-4275-8bb7-b155d4b5a1b9",
+                "name": "New Feature",
+                "color": "purple"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "itFu",
+              "name": "Backlog",
+              "color": "brown"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "viNr",
+              "name": "High",
+              "color": "red"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Vincular conclusão do Processo de renovação à Licença (registrar/atualizar automaticamente)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Vincular conclusão do Processo de renovação à Licença (registrar/atualizar automaticamente)",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": {
+              "id": "<h`p",
+              "name": "Bruno",
+              "color": "green"
+            }
+          }
+        },
+        "url": "https://app.notion.com/p/Vincular-conclus-o-do-Processo-de-renova-o-Licen-a-registrar-atualizar-automaticamente-39722450071d81d98683caa3ce62c28a",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Vincular-conclus-o-do-Processo-de-renova-o-Licen-a-registrar-atualizar-automaticamente-39722450071d81d98683caa3ce62c28a",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "39622450-071d-8126-b24a-ec233c88f348",
+        "created_time": "2026-07-07T21:36:00.000Z",
+        "last_edited_time": "2026-07-07T21:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "37ad872b-594c-81cc-b6cc-0002e2c51f7e"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "37ad872b-594c-81cc-b6cc-0002e2c51f7e"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-09-15",
+              "end": "2026-10-15",
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "b1190d14-bdbf-497a-afdc-3ed0e6e77185",
+                "name": "Enhancement",
+                "color": "default"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "itFu",
+              "name": "Backlog",
+              "color": "brown"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "MRR`",
+              "name": "Medium",
+              "color": "yellow"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Busca avançada com filtros salvos",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Busca avançada com filtros salvos",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/Busca-avan-ada-com-filtros-salvos-39622450071d8126b24aec233c88f348",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Busca-avan-ada-com-filtros-salvos-39622450071d8126b24aec233c88f348",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "39622450-071d-81ef-8ebd-cee1cb873261",
+        "created_time": "2026-07-07T21:36:00.000Z",
+        "last_edited_time": "2026-07-07T21:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "37ad872b-594c-81cc-b6cc-0002e2c51f7e"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "37ad872b-594c-81cc-b6cc-0002e2c51f7e"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-10-01",
+              "end": "2026-11-30",
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "b1190d14-bdbf-497a-afdc-3ed0e6e77185",
+                "name": "Enhancement",
+                "color": "default"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "itFu",
+              "name": "Backlog",
+              "color": "brown"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "MRR`",
+              "name": "Medium",
+              "color": "yellow"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Relatórios de conformidade — histórico de 4 anos",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Relatórios de conformidade — histórico de 4 anos",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/Relat-rios-de-conformidade-hist-rico-de-4-anos-39622450071d81ef8ebdcee1cb873261",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Relat-rios-de-conformidade-hist-rico-de-4-anos-39622450071d81ef8ebdcee1cb873261",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "39622450-071d-81d6-996e-e93727e59073",
+        "created_time": "2026-07-07T21:36:00.000Z",
+        "last_edited_time": "2026-07-07T21:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "37ad872b-594c-81cc-b6cc-0002e2c51f7e"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "37ad872b-594c-81cc-b6cc-0002e2c51f7e"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-07-15",
+              "end": "2026-08-31",
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "8c1b7486-cbc3-4275-8bb7-b155d4b5a1b9",
+                "name": "New Feature",
+                "color": "purple"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "itFu",
+              "name": "Backlog",
+              "color": "brown"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "viNr",
+              "name": "High",
+              "color": "red"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Definir modelo de precificação — por produtor, usuário ou licença",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Definir modelo de precificação — por produtor, usuário ou licença",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/Definir-modelo-de-precifica-o-por-produtor-usu-rio-ou-licen-a-39622450071d81d6996ee93727e59073",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Definir-modelo-de-precifica-o-por-produtor-usu-rio-ou-licen-a-39622450071d81d6996ee93727e59073",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "39622450-071d-8129-84d8-fed52622c27e",
+        "created_time": "2026-07-07T21:35:00.000Z",
+        "last_edited_time": "2026-07-07T21:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "37ad872b-594c-81cc-b6cc-0002e2c51f7e"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "37ad872b-594c-81cc-b6cc-0002e2c51f7e"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-08-15",
+              "end": "2026-09-15",
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "b1190d14-bdbf-497a-afdc-3ed0e6e77185",
+                "name": "Enhancement",
+                "color": "default"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "itFu",
+              "name": "Backlog",
+              "color": "brown"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "viNr",
+              "name": "High",
+              "color": "red"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Versionamento de documentos — histórico e auditoria",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Versionamento de documentos — histórico e auditoria",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/Versionamento-de-documentos-hist-rico-e-auditoria-39622450071d812984d8fed52622c27e",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Versionamento-de-documentos-hist-rico-e-auditoria-39622450071d812984d8fed52622c27e",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "39622450-071d-81e1-8076-fea5916c74fb",
+        "created_time": "2026-07-07T21:35:00.000Z",
+        "last_edited_time": "2026-07-07T21:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "37ad872b-594c-81cc-b6cc-0002e2c51f7e"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "37ad872b-594c-81cc-b6cc-0002e2c51f7e"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-08-15",
+              "end": "2026-09-15",
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "b1190d14-bdbf-497a-afdc-3ed0e6e77185",
+                "name": "Enhancement",
+                "color": "default"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "itFu",
+              "name": "Backlog",
+              "color": "brown"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "viNr",
+              "name": "High",
+              "color": "red"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Pré-preenchimento com dados históricos em renovações",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Pré-preenchimento com dados históricos em renovações",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/Pr-preenchimento-com-dados-hist-ricos-em-renova-es-39622450071d81e18076fea5916c74fb",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Pr-preenchimento-com-dados-hist-ricos-em-renova-es-39622450071d81e18076fea5916c74fb",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "39622450-071d-8157-9298-e25a7118d11a",
+        "created_time": "2026-07-07T21:35:00.000Z",
+        "last_edited_time": "2026-07-07T21:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "37ad872b-594c-81cc-b6cc-0002e2c51f7e"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "37ad872b-594c-81cc-b6cc-0002e2c51f7e"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-09-01",
+              "end": "2026-09-30",
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "b1190d14-bdbf-497a-afdc-3ed0e6e77185",
+                "name": "Enhancement",
+                "color": "default"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "itFu",
+              "name": "Backlog",
+              "color": "brown"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "viNr",
+              "name": "High",
+              "color": "red"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Direcionamento de tarefas entre usuários — bate-bola",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Direcionamento de tarefas entre usuários — bate-bola",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/Direcionamento-de-tarefas-entre-usu-rios-bate-bola-39622450071d81579298e25a7118d11a",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Direcionamento-de-tarefas-entre-usu-rios-bate-bola-39622450071d81579298e25a7118d11a",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "39622450-071d-81a7-bda6-e983c9e3f5d8",
+        "created_time": "2026-07-07T21:35:00.000Z",
+        "last_edited_time": "2026-07-08T01:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "37ad872b-594c-81cc-b6cc-0002e2c51f7e"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-08-15",
+              "end": "2026-09-30",
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "b1190d14-bdbf-497a-afdc-3ed0e6e77185",
+                "name": "Enhancement",
+                "color": "default"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "itFu",
+              "name": "Backlog",
+              "color": "brown"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "viNr",
+              "name": "High",
+              "color": "red"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Campos customizáveis para condicionantes ambientais",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Campos customizáveis para condicionantes ambientais",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/Campos-customiz-veis-para-condicionantes-ambientais-39622450071d81a7bda6e983c9e3f5d8",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Campos-customiz-veis-para-condicionantes-ambientais-39622450071d81a7bda6e983c9e3f5d8",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "39622450-071d-8104-9150-dd97914a1a8d",
+        "created_time": "2026-07-07T21:35:00.000Z",
+        "last_edited_time": "2026-07-07T21:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "37ad872b-594c-81cc-b6cc-0002e2c51f7e"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "37ad872b-594c-81cc-b6cc-0002e2c51f7e"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-09-01",
+              "end": "2026-10-31",
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "8c1b7486-cbc3-4275-8bb7-b155d4b5a1b9",
+                "name": "New Feature",
+                "color": "purple"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "itFu",
+              "name": "Backlog",
+              "color": "brown"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "viNr",
+              "name": "High",
+              "color": "red"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Opção de deploy on-premise — não apenas SaaS",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Opção de deploy on-premise — não apenas SaaS",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/Op-o-de-deploy-on-premise-n-o-apenas-SaaS-39622450071d81049150dd97914a1a8d",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Op-o-de-deploy-on-premise-n-o-apenas-SaaS-39622450071d81049150dd97914a1a8d",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "39622450-071d-8106-87a7-ccc68dc3bed6",
+        "created_time": "2026-07-07T21:35:00.000Z",
+        "last_edited_time": "2026-07-07T21:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "37ad872b-594c-81cc-b6cc-0002e2c51f7e"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "37ad872b-594c-81cc-b6cc-0002e2c51f7e"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-09-01",
+              "end": "2026-10-31",
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "8c1b7486-cbc3-4275-8bb7-b155d4b5a1b9",
+                "name": "New Feature",
+                "color": "purple"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "itFu",
+              "name": "Backlog",
+              "color": "brown"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "viNr",
+              "name": "High",
+              "color": "red"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Integração com Sigma — rastreabilidade agrícola",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Integração com Sigma — rastreabilidade agrícola",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/Integra-o-com-Sigma-rastreabilidade-agr-cola-39622450071d810687a7ccc68dc3bed6",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Integra-o-com-Sigma-rastreabilidade-agr-cola-39622450071d810687a7ccc68dc3bed6",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "39622450-071d-8189-b520-e9d3011947b9",
+        "created_time": "2026-07-07T21:35:00.000Z",
+        "last_edited_time": "2026-07-07T21:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "37ad872b-594c-81cc-b6cc-0002e2c51f7e"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "37ad872b-594c-81cc-b6cc-0002e2c51f7e"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-08-01",
+              "end": "2026-09-15",
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "8c1b7486-cbc3-4275-8bb7-b155d4b5a1b9",
+                "name": "New Feature",
+                "color": "purple"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "itFu",
+              "name": "Backlog",
+              "color": "brown"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "viNr",
+              "name": "High",
+              "color": "red"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Alertas multicanal — WhatsApp, Telegram e notificações push",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Alertas multicanal — WhatsApp, Telegram e notificações push",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/Alertas-multicanal-WhatsApp-Telegram-e-notifica-es-push-39622450071d8189b520e9d3011947b9",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Alertas-multicanal-WhatsApp-Telegram-e-notifica-es-push-39622450071d8189b520e9d3011947b9",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "38e22450-071d-8158-9221-cd2c967e779d",
+        "created_time": "2026-06-29T03:25:00.000Z",
+        "last_edited_time": "2026-06-29T03:25:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-06-17",
+              "end": null,
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "8c1b7486-cbc3-4275-8bb7-b155d4b5a1b9",
+                "name": "New Feature",
+                "color": "purple"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "ddf25ae2-d666-4a55-a5cf-08d3592a3698",
+              "name": "Completed",
+              "color": "green"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "MRR`",
+              "name": "Medium",
+              "color": "yellow"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Mock de consulta governamental + logs_consultas_governo",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Mock de consulta governamental + logs_consultas_governo",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/Mock-de-consulta-governamental-logs_consultas_governo-38e22450071d81589221cd2c967e779d",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Mock-de-consulta-governamental-logs_consultas_governo-38e22450071d81589221cd2c967e779d",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "38e22450-071d-815c-9283-c6681dbeac72",
+        "created_time": "2026-06-29T03:25:00.000Z",
+        "last_edited_time": "2026-06-29T03:25:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-06-17",
+              "end": null,
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "8c1b7486-cbc3-4275-8bb7-b155d4b5a1b9",
+                "name": "New Feature",
+                "color": "purple"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "ddf25ae2-d666-4a55-a5cf-08d3592a3698",
+              "name": "Completed",
+              "color": "green"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "viNr",
+              "name": "High",
+              "color": "red"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "CRUD completo — Clientes, Produtores, Empreendimentos, Licenças",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "CRUD completo — Clientes, Produtores, Empreendimentos, Licenças",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/CRUD-completo-Clientes-Produtores-Empreendimentos-Licen-as-38e22450071d815c9283c6681dbeac72",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/CRUD-completo-Clientes-Produtores-Empreendimentos-Licen-as-38e22450071d815c9283c6681dbeac72",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "38e22450-071d-8160-a778-e9d2ee45dcfd",
+        "created_time": "2026-06-29T03:25:00.000Z",
+        "last_edited_time": "2026-06-29T03:25:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-06-17",
+              "end": null,
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "8c1b7486-cbc3-4275-8bb7-b155d4b5a1b9",
+                "name": "New Feature",
+                "color": "purple"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "ddf25ae2-d666-4a55-a5cf-08d3592a3698",
+              "name": "Completed",
+              "color": "green"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "viNr",
+              "name": "High",
+              "color": "red"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Autenticação, RBAC e aprovação de usuários",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Autenticação, RBAC e aprovação de usuários",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/Autentica-o-RBAC-e-aprova-o-de-usu-rios-38e22450071d8160a778e9d2ee45dcfd",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Autentica-o-RBAC-e-aprova-o-de-usu-rios-38e22450071d8160a778e9d2ee45dcfd",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "38e22450-071d-8165-9d06-df52335cb362",
+        "created_time": "2026-06-29T03:25:00.000Z",
+        "last_edited_time": "2026-06-29T03:25:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-06-19",
+              "end": null,
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "8c1b7486-cbc3-4275-8bb7-b155d4b5a1b9",
+                "name": "New Feature",
+                "color": "purple"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "ddf25ae2-d666-4a55-a5cf-08d3592a3698",
+              "name": "Completed",
+              "color": "green"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "viNr",
+              "name": "High",
+              "color": "red"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Sub-módulos de licença — água utilizada, condicionantes, efluentes, resíduos, checklist",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Sub-módulos de licença — água utilizada, condicionantes, efluentes, resíduos, checklist",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/Sub-m-dulos-de-licen-a-gua-utilizada-condicionantes-efluentes-res-duos-checklist-38e22450071d81659d06df52335cb362",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Sub-m-dulos-de-licen-a-gua-utilizada-condicionantes-efluentes-res-duos-checklist-38e22450071d81659d06df52335cb362",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "38e22450-071d-8175-8263-e6ce79f4ab5f",
+        "created_time": "2026-06-29T03:25:00.000Z",
+        "last_edited_time": "2026-06-29T03:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-06-28",
+              "end": null,
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "8c1b7486-cbc3-4275-8bb7-b155d4b5a1b9",
+                "name": "New Feature",
+                "color": "purple"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "7e4f8156-5ddd-4637-bbf6-46e60884e5e2",
+              "name": "In progress",
+              "color": "blue"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "viNr",
+              "name": "High",
+              "color": "red"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Scraper IAT + cross-check com banco de dados",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Scraper IAT + cross-check com banco de dados",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/Scraper-IAT-cross-check-com-banco-de-dados-38e22450071d81758263e6ce79f4ab5f",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Scraper-IAT-cross-check-com-banco-de-dados-38e22450071d81758263e6ce79f4ab5f",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "38e22450-071d-8176-b342-ef372ecbac13",
+        "created_time": "2026-06-29T03:25:00.000Z",
+        "last_edited_time": "2026-06-29T03:25:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-06-08",
+              "end": null,
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "8c1b7486-cbc3-4275-8bb7-b155d4b5a1b9",
+                "name": "New Feature",
+                "color": "purple"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "ddf25ae2-d666-4a55-a5cf-08d3592a3698",
+              "name": "Completed",
+              "color": "green"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "viNr",
+              "name": "High",
+              "color": "red"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Modelagem base — clientes, produtores, empreendimentos, licenças, documentos",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Modelagem base — clientes, produtores, empreendimentos, licenças, documentos",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/Modelagem-base-clientes-produtores-empreendimentos-licen-as-documentos-38e22450071d8176b342ef372ecbac13",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Modelagem-base-clientes-produtores-empreendimentos-licen-as-documentos-38e22450071d8176b342ef372ecbac13",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "38e22450-071d-8177-91c2-f39512115519",
+        "created_time": "2026-06-29T03:25:00.000Z",
+        "last_edited_time": "2026-07-07T21:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-06-28",
+              "end": null,
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "8c1b7486-cbc3-4275-8bb7-b155d4b5a1b9",
+                "name": "New Feature",
+                "color": "purple"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "\\Hz;",
+              "name": "Planned",
+              "color": "gray"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "MRR`",
+              "name": "Medium",
+              "color": "yellow"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Consulta CAR via InfoSimples + conversão UTM → WGS84",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Consulta CAR via InfoSimples + conversão UTM → WGS84",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/Consulta-CAR-via-InfoSimples-convers-o-UTM-WGS84-38e22450071d817791c2f39512115519",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Consulta-CAR-via-InfoSimples-convers-o-UTM-WGS84-38e22450071d817791c2f39512115519",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "38e22450-071d-8197-b7a3-c51de55989ea",
+        "created_time": "2026-06-29T03:25:00.000Z",
+        "last_edited_time": "2026-06-29T03:25:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-06-16",
+              "end": null,
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "8c1b7486-cbc3-4275-8bb7-b155d4b5a1b9",
+                "name": "New Feature",
+                "color": "purple"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "ddf25ae2-d666-4a55-a5cf-08d3592a3698",
+              "name": "Completed",
+              "color": "green"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "MRR`",
+              "name": "Medium",
+              "color": "yellow"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Dashboard com status de licenças e indicadores",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Dashboard com status de licenças e indicadores",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/Dashboard-com-status-de-licen-as-e-indicadores-38e22450071d8197b7a3c51de55989ea",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Dashboard-com-status-de-licen-as-e-indicadores-38e22450071d8197b7a3c51de55989ea",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "38e22450-071d-819d-8739-e16f446b1e0a",
+        "created_time": "2026-06-29T03:25:00.000Z",
+        "last_edited_time": "2026-06-29T03:25:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-06-17",
+              "end": null,
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "8c1b7486-cbc3-4275-8bb7-b155d4b5a1b9",
+                "name": "New Feature",
+                "color": "purple"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "ddf25ae2-d666-4a55-a5cf-08d3592a3698",
+              "name": "Completed",
+              "color": "green"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "viNr",
+              "name": "High",
+              "color": "red"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Gestão de pendências de processo com alertas no dashboard",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Gestão de pendências de processo com alertas no dashboard",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/Gest-o-de-pend-ncias-de-processo-com-alertas-no-dashboard-38e22450071d819d8739e16f446b1e0a",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Gest-o-de-pend-ncias-de-processo-com-alertas-no-dashboard-38e22450071d819d8739e16f446b1e0a",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "38e22450-071d-81e3-8b28-d6cd1d63b37b",
+        "created_time": "2026-06-29T03:25:00.000Z",
+        "last_edited_time": "2026-06-29T03:25:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-06-17",
+              "end": null,
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "8c1b7486-cbc3-4275-8bb7-b155d4b5a1b9",
+                "name": "New Feature",
+                "color": "purple"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "ddf25ae2-d666-4a55-a5cf-08d3592a3698",
+              "name": "Completed",
+              "color": "green"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "viNr",
+              "name": "High",
+              "color": "red"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Sistema de processos com Kanban (etapas, drag-and-drop)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Sistema de processos com Kanban (etapas, drag-and-drop)",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/Sistema-de-processos-com-Kanban-etapas-drag-and-drop-38e22450071d81e38b28d6cd1d63b37b",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Sistema-de-processos-com-Kanban-etapas-drag-and-drop-38e22450071d81e38b28d6cd1d63b37b",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "38e22450-071d-81ec-9d8d-cb7c56191ace",
+        "created_time": "2026-06-29T03:25:00.000Z",
+        "last_edited_time": "2026-06-29T03:25:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-06-17",
+              "end": null,
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "8c1b7486-cbc3-4275-8bb7-b155d4b5a1b9",
+                "name": "New Feature",
+                "color": "purple"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "ddf25ae2-d666-4a55-a5cf-08d3592a3698",
+              "name": "Completed",
+              "color": "green"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "viNr",
+              "name": "High",
+              "color": "red"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Cofre documental — upload, validação e rejeição de documentos",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Cofre documental — upload, validação e rejeição de documentos",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/Cofre-documental-upload-valida-o-e-rejei-o-de-documentos-38e22450071d81ec9d8dcb7c56191ace",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Cofre-documental-upload-valida-o-e-rejei-o-de-documentos-38e22450071d81ec9d8dcb7c56191ace",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "38e22450-071d-812c-b470-eb24b6bab290",
+        "created_time": "2026-06-29T03:21:00.000Z",
+        "last_edited_time": "2026-06-29T03:21:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-07-21",
+              "end": "2026-08-01",
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "8c1b7486-cbc3-4275-8bb7-b155d4b5a1b9",
+                "name": "New Feature",
+                "color": "purple"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "\\Hz;",
+              "name": "Planned",
+              "color": "gray"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "viNr",
+              "name": "High",
+              "color": "red"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Persistência do CAR no Empreendimento",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Persistência do CAR no Empreendimento",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/Persist-ncia-do-CAR-no-Empreendimento-38e22450071d812cb470eb24b6bab290",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Persist-ncia-do-CAR-no-Empreendimento-38e22450071d812cb470eb24b6bab290",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "38e22450-071d-814a-9e5c-f6db9a8a0af9",
+        "created_time": "2026-06-29T03:21:00.000Z",
+        "last_edited_time": "2026-07-07T21:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-06-28",
+              "end": "2026-06-29",
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "8c1b7486-cbc3-4275-8bb7-b155d4b5a1b9",
+                "name": "New Feature",
+                "color": "purple"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "7e4f8156-5ddd-4637-bbf6-46e60884e5e2",
+              "name": "In progress",
+              "color": "blue"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "viNr",
+              "name": "High",
+              "color": "red"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Importação em lote via PDF (Schoeler Suínos)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Importação em lote via PDF (Schoeler Suínos)",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/Importa-o-em-lote-via-PDF-Schoeler-Su-nos-38e22450071d814a9e5cf6db9a8a0af9",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Importa-o-em-lote-via-PDF-Schoeler-Su-nos-38e22450071d814a9e5cf6db9a8a0af9",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "38e22450-071d-8150-a950-e93ae54759a4",
+        "created_time": "2026-06-29T03:21:00.000Z",
+        "last_edited_time": "2026-06-29T03:21:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-08-15",
+              "end": "2026-09-15",
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "8c1b7486-cbc3-4275-8bb7-b155d4b5a1b9",
+                "name": "New Feature",
+                "color": "purple"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "itFu",
+              "name": "Backlog",
+              "color": "brown"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "MRR`",
+              "name": "Medium",
+              "color": "yellow"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Relatórios básicos em PDF (/relatorios)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Relatórios básicos em PDF (/relatorios)",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/Relat-rios-b-sicos-em-PDF-relatorios-38e22450071d8150a950e93ae54759a4",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Relat-rios-b-sicos-em-PDF-relatorios-38e22450071d8150a950e93ae54759a4",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "38e22450-071d-8154-a1ec-d4b8cd50d15f",
+        "created_time": "2026-06-29T03:21:00.000Z",
+        "last_edited_time": "2026-06-29T03:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-06-28",
+              "end": null,
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "8c1b7486-cbc3-4275-8bb7-b155d4b5a1b9",
+                "name": "New Feature",
+                "color": "purple"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "7e4f8156-5ddd-4637-bbf6-46e60884e5e2",
+              "name": "In progress",
+              "color": "blue"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "MRR`",
+              "name": "Medium",
+              "color": "yellow"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Painel histórico IAT (deferidas, indeferidas, requeridas)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Painel histórico IAT (deferidas, indeferidas, requeridas)",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/Painel-hist-rico-IAT-deferidas-indeferidas-requeridas-38e22450071d8154a1ecd4b8cd50d15f",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Painel-hist-rico-IAT-deferidas-indeferidas-requeridas-38e22450071d8154a1ecd4b8cd50d15f",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "38e22450-071d-8195-b04d-dac337a3ebe5",
+        "created_time": "2026-06-29T03:21:00.000Z",
+        "last_edited_time": "2026-06-29T03:21:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-11-01",
+              "end": null,
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "8c1b7486-cbc3-4275-8bb7-b155d4b5a1b9",
+                "name": "New Feature",
+                "color": "purple"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "itFu",
+              "name": "Backlog",
+              "color": "brown"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "Iey>",
+              "name": "Low",
+              "color": "green"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Monitoramento Ambiental — laudos de solo e aplicações de dejeto (IN 61/2020)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Monitoramento Ambiental — laudos de solo e aplicações de dejeto (IN 61/2020)",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/Monitoramento-Ambiental-laudos-de-solo-e-aplica-es-de-dejeto-IN-61-2020-38e22450071d8195b04ddac337a3ebe5",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Monitoramento-Ambiental-laudos-de-solo-e-aplica-es-de-dejeto-IN-61-2020-38e22450071d8195b04ddac337a3ebe5",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "38e22450-071d-81a3-9ce5-f4689d64150d",
+        "created_time": "2026-06-29T03:21:00.000Z",
+        "last_edited_time": "2026-06-29T03:21:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-07-01",
+              "end": "2026-07-14",
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "8c1b7486-cbc3-4275-8bb7-b155d4b5a1b9",
+                "name": "New Feature",
+                "color": "purple"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "\\Hz;",
+              "name": "Planned",
+              "color": "gray"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "viNr",
+              "name": "High",
+              "color": "red"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "CRUD manual sub-tabelas da Licença (água, efluentes, resíduos, condicionantes, taxas)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "CRUD manual sub-tabelas da Licença (água, efluentes, resíduos, condicionantes, taxas)",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/CRUD-manual-sub-tabelas-da-Licen-a-gua-efluentes-res-duos-condicionantes-taxas-38e22450071d81a39ce5f4689d64150d",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/CRUD-manual-sub-tabelas-da-Licen-a-gua-efluentes-res-duos-condicionantes-taxas-38e22450071d81a39ce5f4689d64150d",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "38e22450-071d-81b0-95b1-c66b6379b8f1",
+        "created_time": "2026-06-29T03:21:00.000Z",
+        "last_edited_time": "2026-06-29T03:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-06-29",
+              "end": null,
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "8c1b7486-cbc3-4275-8bb7-b155d4b5a1b9",
+                "name": "New Feature",
+                "color": "purple"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "\\Hz;",
+              "name": "Planned",
+              "color": "gray"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "viNr",
+              "name": "High",
+              "color": "red"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Painel de Prazos (/prazos)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Painel de Prazos (/prazos)",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/Painel-de-Prazos-prazos-38e22450071d81b095b1c66b6379b8f1",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Painel-de-Prazos-prazos-38e22450071d81b095b1c66b6379b8f1",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "38e22450-071d-81b1-b6af-f0252676d747",
+        "created_time": "2026-06-29T03:21:00.000Z",
+        "last_edited_time": "2026-06-29T03:21:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-09-01",
+              "end": "2026-09-30",
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "b1190d14-bdbf-497a-afdc-3ed0e6e77185",
+                "name": "Enhancement",
+                "color": "default"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "itFu",
+              "name": "Backlog",
+              "color": "brown"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "Iey>",
+              "name": "Low",
+              "color": "green"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Validações cadastrais — Receita Federal, Correios, IBGE",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Validações cadastrais — Receita Federal, Correios, IBGE",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/Valida-es-cadastrais-Receita-Federal-Correios-IBGE-38e22450071d81b1b6aff0252676d747",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Valida-es-cadastrais-Receita-Federal-Correios-IBGE-38e22450071d81b1b6aff0252676d747",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "38e22450-071d-81b2-832a-e1d0e37e2c25",
+        "created_time": "2026-06-29T03:21:00.000Z",
+        "last_edited_time": "2026-06-29T03:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-07-07",
+              "end": "2026-07-28",
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "8c1b7486-cbc3-4275-8bb7-b155d4b5a1b9",
+                "name": "New Feature",
+                "color": "purple"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "\\Hz;",
+              "name": "Planned",
+              "color": "gray"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "Iey>",
+              "name": "Low",
+              "color": "green"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Expansão modelo Outorga — dados hidrológicos completos (DUIO)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Expansão modelo Outorga — dados hidrológicos completos (DUIO)",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/Expans-o-modelo-Outorga-dados-hidrol-gicos-completos-DUIO-38e22450071d81b2832ae1d0e37e2c25",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Expans-o-modelo-Outorga-dados-hidrol-gicos-completos-DUIO-38e22450071d81b2832ae1d0e37e2c25",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "38e22450-071d-81bc-aea0-cc0796758e02",
+        "created_time": "2026-06-29T03:21:00.000Z",
+        "last_edited_time": "2026-06-29T03:21:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-08-01",
+              "end": "2026-08-31",
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "8c1b7486-cbc3-4275-8bb7-b155d4b5a1b9",
+                "name": "New Feature",
+                "color": "purple"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "itFu",
+              "name": "Backlog",
+              "color": "brown"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "MRR`",
+              "name": "Medium",
+              "color": "yellow"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Notificações por email — alertas de vencimento",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Notificações por email — alertas de vencimento",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/Notifica-es-por-email-alertas-de-vencimento-38e22450071d81bcaea0cc0796758e02",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Notifica-es-por-email-alertas-de-vencimento-38e22450071d81bcaea0cc0796758e02",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "38e22450-071d-81c5-b144-d7d01ffec5d6",
+        "created_time": "2026-06-29T03:21:00.000Z",
+        "last_edited_time": "2026-06-29T03:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-06-28",
+              "end": null,
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "6f229123-3ea1-4c08-a4ae-8a6116f5377a",
+                "name": "UI/UX",
+                "color": "red"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "7e4f8156-5ddd-4637-bbf6-46e60884e5e2",
+              "name": "In progress",
+              "color": "blue"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "Iey>",
+              "name": "Low",
+              "color": "green"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Interface de listagens melhorada (licenças, empreendimentos, produtor)",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Interface de listagens melhorada (licenças, empreendimentos, produtor)",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/Interface-de-listagens-melhorada-licen-as-empreendimentos-produtor-38e22450071d81c5b144d7d01ffec5d6",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Interface-de-listagens-melhorada-licen-as-empreendimentos-produtor-38e22450071d81c5b144d7d01ffec5d6",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "38e22450-071d-81eb-9e19-df52d224f000",
+        "created_time": "2026-06-29T03:21:00.000Z",
+        "last_edited_time": "2026-06-29T03:21:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": {
+              "start": "2026-10-01",
+              "end": "2026-10-31",
+              "time_zone": null
+            }
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": [
+              {
+                "id": "8c1b7486-cbc3-4275-8bb7-b155d4b5a1b9",
+                "name": "New Feature",
+                "color": "purple"
+              }
+            ]
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "itFu",
+              "name": "Backlog",
+              "color": "brown"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": {
+              "id": "MRR`",
+              "name": "Medium",
+              "color": "yellow"
+            }
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Integrações reais com IBAMA, CAR e INCRA",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Integrações reais com IBAMA, CAR e INCRA",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": null
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": null
+          }
+        },
+        "url": "https://app.notion.com/p/Integra-es-reais-com-IBAMA-CAR-e-INCRA-38e22450071d81eb9e19df52d224f000",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Integra-es-reais-com-IBAMA-CAR-e-INCRA-38e22450071d81eb9e19df52d224f000",
+        "archived": false
+      },
+      {
+        "object": "page",
+        "id": "37c22450-071d-80f2-a1ee-ebe31202c9b6",
+        "created_time": "2026-06-11T20:03:00.000Z",
+        "last_edited_time": "2026-07-07T23:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "aad32dd3-26bd-430d-aa8c-ca14c6cb6bb3"
+        },
+        "cover": null,
+        "icon": null,
+        "parent": {
+          "type": "data_source_id",
+          "data_source_id": "38e22450-071d-8025-b854-000b3b958559",
+          "database_id": "38e22450-071d-80c7-bd2f-d24488c1853a"
+        },
+        "in_trash": false,
+        "is_archived": false,
+        "is_locked": false,
+        "properties": {
+          "Ajuda a Vender/Implantar/Reter": {
+            "id": "IYcd",
+            "type": "select",
+            "select": null
+          },
+          "Date": {
+            "id": "TnwV",
+            "type": "date",
+            "date": null
+          },
+          "Category": {
+            "id": "T%7Dna",
+            "type": "multi_select",
+            "multi_select": []
+          },
+          "Status": {
+            "id": "gNgo",
+            "type": "status",
+            "status": {
+              "id": "\\Hz;",
+              "name": "Planned",
+              "color": "gray"
+            }
+          },
+          "Priority": {
+            "id": "m%7DX%5C",
+            "type": "select",
+            "select": null
+          },
+          "Feature": {
+            "id": "title",
+            "type": "title",
+            "title": [
+              {
+                "type": "text",
+                "text": {
+                  "content": "Fluxo de Trabalho para gerar licencas",
+                  "link": null
+                },
+                "annotations": {
+                  "bold": false,
+                  "italic": false,
+                  "strikethrough": false,
+                  "underline": false,
+                  "code": false,
+                  "color": "default"
+                },
+                "plain_text": "Fluxo de Trabalho para gerar licencas",
+                "href": null
+              }
+            ]
+          },
+          "Prioridade": {
+            "id": "3f42e5d5-fccb-4a61-8e1d-4c951e7d28e8",
+            "type": "select",
+            "select": {
+              "id": "uVUE",
+              "name": "🔴 Alta",
+              "color": "red"
+            }
+          },
+          "Responsável": {
+            "id": "d7a2efdf-90ab-4de2-acc4-0332358a7bda",
+            "type": "select",
+            "select": {
+              "id": "<h`p",
+              "name": "Bruno",
+              "color": "green"
+            }
+          }
+        },
+        "url": "https://app.notion.com/p/Fluxo-de-Trabalho-para-gerar-licencas-37c22450071d80f2a1eeebe31202c9b6",
+        "public_url": "https://trapezoidal-aragon-9fc.notion.site/Fluxo-de-Trabalho-para-gerar-licencas-37c22450071d80f2a1eeebe31202c9b6",
+        "archived": false
+      }
+    ],
+    "next_cursor": null,
+    "has_more": false,
+    "type": "page_or_data_source",
+    "page_or_data_source": {},
+    "request_id": "748bb054-06fa-4ff9-822f-dcc0ece0be87"
+  }
+}
